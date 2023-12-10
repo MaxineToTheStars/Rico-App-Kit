@@ -4,7 +4,7 @@ name: Create Windows Package
 # Name of the workflow while running
 run-name: Create Windows Package || Issued by @${{ github.actor }}
 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 
 jobs:
     create-windows-package:
