@@ -22,6 +22,7 @@ CONSTANT_VERSION_STRING: Final[str] = "v1.0.0"
 CONSTANT_MAXTIME_JRE_DOWNLOAD_URL: Final[str] = "https://github.com/MaxineToTheStars/MaxTime-JRE/releases/download/latest/maxtime-jre.zip"
 CONSTANT_CUSTOM_BAT_DATA: Final[str] = """
 @echo off
+echo Rico App Kit Version: RAC-v1.0.0
 echo JRE Supplied: MaxTime JRE v2.0.0 for Java v11
 echo https://github.com/MaxineToTheStars/MaxTime-JRE
 echo -----------------------------------------------
